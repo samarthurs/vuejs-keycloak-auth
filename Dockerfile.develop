@@ -1,0 +1,5 @@
+FROM node:14.16.0
+VOLUME [ "/app" ]
+WORKDIR /app
+
+CMD ["sh", "-c", "npm install; npm run serve"]
