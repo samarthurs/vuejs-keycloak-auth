@@ -16,7 +16,7 @@ available for use.
 by default the Realm - "keycloak-demo" will be opened and there will be two users "test" and "test2" readily available under this keycloak-demo Realm.
 Under the project you will find keycloak-config folder which has the realm file which will be imported by docker-compose during the creation of Keycloak server.
 
-![img.png](img.png)
+![img.png](screenshots/img.png)
 
 ### 2. The application can be accessed via http://127.0.0.1:3000
 User "test" has the roles "admin" and can access the Admin page.
@@ -26,13 +26,13 @@ username: test
 password: test
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](screenshots/img_1.png)
 
-![img_2.png](img_2.png)
+![img_2.png](screenshots/img_2.png)
 
 Click on the "Admin" tab on the top right corner and as the user "test" has admin role, he is allowed to see the Admin page.
 
-![img_3.png](img_3.png)
+![img_3.png](screenshots/img_3.png)
 
 Now click on Logout and try logging with user "test2" who has only "developer" role but not "admin" role.
 
@@ -43,7 +43,7 @@ password: test
 
 Click on Admin page and user "test2" is Forbidden from seeing it.
 
-![img_4.png](img_4.png)
+![img_4.png](screenshots/img_4.png)
 
 
  
